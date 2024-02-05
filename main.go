@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"m3u8-downloader/downloader"
-	"m3u8-downloader/log"
+	"github.com/zishuzy/m3u8-downloader/downloader"
+	"github.com/zishuzy/m3u8-downloader/log"
 )
 
 var (

@@ -6,7 +6,6 @@ import (
 	"crypto/cipher"
 	"fmt"
 	"io/ioutil"
-	"m3u8-downloader/log"
 	"net/http"
 	"net/url"
 	"os"
@@ -18,6 +17,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/zishuzy/m3u8-downloader/log"
 	"github.com/levigross/grequests"
 	"github.com/sirupsen/logrus"
 )
